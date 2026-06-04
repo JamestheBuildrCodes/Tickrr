@@ -31,9 +31,8 @@ export default function Hero() {
 
           <p className="mt-6 max-w-xl text-lg text-[var(--th-muted)] reveal is-visible">
             Tickrr is the social trading platform with{" "
-            <span className="text-[var(--th-text)]">verified track records</span>, global rankings,
-            smart copy trading, and an AI co-pilot that reads your charts — across Forex, Crypto,
-            Synthetics &amp; Stocks.
+            <span className="text-[var(--th-text)]">verified track records</span>
+            {", global rankings, smart copy trading, and an AI co-pilot that reads your charts — across Forex, Crypto, Synthetics & Stocks."}
           </p>
 
           <div className="mt-8 max-w-md">
