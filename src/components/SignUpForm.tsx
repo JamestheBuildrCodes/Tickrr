@@ -2,6 +2,7 @@
 
 import { useState, type FormEvent } from "react";
 import { ArrowRight, Check, Eye, EyeOff } from "@/components/icons";
+import Link from "next/link";
 
 type Status = "idle" | "loading" | "success" | "error";
 
@@ -52,10 +53,10 @@ export default function SignUpForm() {
           <h3 className="text-xl font-semibold text-[var(--th-text)] mb-2">Welcome to Tickrr!</h3>
           <p className="text-sm text-[var(--th-muted)]">{message}</p>
         </div>
-        <a href="/" className="btn-primary mt-4">
+        <Link href="/" className="btn-primary mt-4">
           Go to dashboard
           <ArrowRight width={18} height={18} />
-        </a>
+        </Link>
       </div>
     );
   }
