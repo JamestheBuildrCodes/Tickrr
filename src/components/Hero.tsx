@@ -21,7 +21,7 @@ export default function Hero() {
             <Sparkle width={14} height={14} /> Now in private beta
           </span>
 
-          <h1 className="mt-5 text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.05] tracking-tight">
+          <h1 className="mt-5 text-5xl sm:text-6xl lg:text-7xl font-bold leading-[1.1] tracking-tight">
             <WordReveal text="Where traders" />
             <br className="hidden sm:block" />
             <WordReveal text="learn, talk, and trade" highlightFrom={2} />
@@ -29,28 +29,28 @@ export default function Hero() {
             <WordReveal text="together." />
           </h1>
 
-          <p className="mt-6 max-w-xl text-lg text-[var(--th-muted)] reveal is-visible">
+          <p className="mt-6 max-w-xl text-xl text-[var(--th-muted)] reveal is-visible leading-relaxed">
             Tickrr is the social trading platform with{" "}
-            <span className="text-[var(--th-text)]">verified track records</span>
+            <span className="text-[var(--th-text)] font-semibold">verified track records</span>
             {", global rankings, smart copy trading, and an AI co-pilot that reads your charts — across Forex, Crypto, Synthetics & Stocks."}
           </p>
 
-          <div className="mt-8 max-w-md">
+          <div className="mt-10 max-w-lg">
             <WaitlistForm />
-            <p className="mt-3 flex items-center gap-2 text-sm text-[var(--th-faint)]">
+            <p className="mt-4 flex items-center gap-2 text-sm text-[var(--th-faint)]">
               <ShieldCheck width={16} height={16} className="text-[var(--th-primary)]" />
               No spam. Founders get permanent badges.
             </p>
           </div>
 
-          <dl className="mt-10 flex flex-wrap gap-x-10 gap-y-4">
+          <dl className="mt-12 flex flex-wrap gap-x-12 gap-y-5">
             {[
-              ["62k+", "traders on the waitlist"],
+              ["62k+", "traders on waitlist"],
               ["4", "markets, one community"],
               ["100%", "verified performance"],
             ].map(([n, l]) => (
               <div key={l}>
-                <dt className="text-2xl font-bold th-gradient-text">{n}</dt>
+                <dt className="text-3xl font-bold th-gradient-text">{n}</dt>
                 <dd className="text-sm text-[var(--th-muted)]">{l}</dd>
               </div>
             ))}
