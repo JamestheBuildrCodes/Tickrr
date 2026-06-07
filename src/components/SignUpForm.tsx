@@ -53,8 +53,8 @@ export default function SignUpForm() {
           <h3 className="text-xl font-semibold text-[var(--th-text)] mb-2">Welcome to Tickrr!</h3>
           <p className="text-sm text-[var(--th-muted)]">{message}</p>
         </div>
-        <Link href="/" className="btn-primary mt-4">
-          Go to dashboard
+        <Link href="/onboarding" className="btn-primary mt-4">
+          Complete your profile
         </Link>
       </div>
     );
