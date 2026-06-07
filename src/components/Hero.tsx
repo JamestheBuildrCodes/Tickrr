@@ -6,7 +6,7 @@ import { ShieldCheck, Sparkle, ArrowRight } from "@/components/icons";
 
 export default function Hero() {
   return (
-    <section id="top" className="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden">
+    <section id="top" className="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden gradient-mesh">
       {/* Parallax ambient blobs */}
       <Parallax speed={0.25} className="pointer-events-none absolute -top-10 right-[6%] -z-10">
         <div className="w-72 h-72 rounded-full bg-[var(--th-primary)]/20 blur-[90px]" />

@@ -6,6 +6,7 @@ import Leaderboard from "@/components/Leaderboard";
 import Heatmap from "@/components/Heatmap";
 import Spotlight from "@/components/Spotlight";
 import CreatorMonetization from "@/components/CreatorMonetization";
+import Testimonials from "@/components/Testimonials";
 import Pricing from "@/components/Pricing";
 import Faq from "@/components/Faq";
 import FinalCta from "@/components/FinalCta";
@@ -23,6 +24,7 @@ export default function Home() {
         <Spotlight />
         <Heatmap />
         <CreatorMonetization />
+        <Testimonials />
         <Pricing />
         <Faq />
         <FinalCta />

@@ -16,7 +16,7 @@ export default function Features() {
         <div className="mt-16 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {features.map((f, i) => (
             <Reveal key={f.title} delay={(i % 3) * 100}>
-              <article className="th-card th-card-hover group h-full p-6 backdrop-blur-xl border border-white/10">
+              <article className="th-card th-card-hover group h-full p-6 backdrop-blur-xl border border-white/10 scroll-animate scroll-animate-delay-1">
                 <div className="flex items-center justify-between">
                   <span className="grid place-items-center w-14 h-14 rounded-xl bg-gradient-to-br from-[var(--th-primary)]/20 to-[var(--th-primary-2)]/20 text-[var(--th-primary)] hover-rotate group-hover:glow-ring transition-all duration-300">
                     <f.icon width={28} height={28} />
